@@ -1,0 +1,12 @@
+QTextBrowser {
+  background-color: white;
+}
+
+QWebView {
+  background-color: white;
+}
+
+QAbstractScrollArea  {
+  background-color: white;
+  color: black;
+}

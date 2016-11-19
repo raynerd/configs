@@ -1,0 +1,18 @@
+priority 0
+
+global !p
+from datetime import date
+year = date.today().year
+endglobal
+
+snippet docs
+# -*- coding: utf-8 -*-
+"""
+${1:package.module}
+`!p snip.rv = len(t[1])*'~'`
+${2:A brief description goes here.}
+:copyright: (c) ${3:`!p snip.rv = year`} by ${4:`!v g:snips_author`}.
+:license: ${5:BSD}, see ${6:LICENSE} for more details.
+"""
+$0
+endsnippet

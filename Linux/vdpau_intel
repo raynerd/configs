@@ -1,0 +1,2 @@
+cd /usr/lib/vdpau/
+ln -s libvdpau_va_gl.so.1 libvdpau_i965.so.1 

@@ -1,0 +1,32 @@
+" don't blink any more please!  ;(
+set vb t_vb= 
+
+" set cursorline
+" GUI Tab settings
+function! GuiTabLabel()
+  let label = ''
+  let buflist = tabpagebuflist(v:lnum)
+  if exists('t:title')
+    let label .= t:title . ' '
+  endif
+  let label .= '[' . bufname(buflist[tabpagewinnr(v:lnum) - 1]) . ']'
+  for bufnr in buflist
+    if getbufvar(bufnr, '&modified')
+      let label .= '+'
+      break
+    endif
+  endfor
+  return label
+endfunction
+set guitablabel=%{GuiTabLabel()}
+
+
+
+if has("X11")
+   set guifont=PowerMona\ 11
+else
+   set guifont=PowerMona:h11
+endif
+
+
+set guioptions-=T

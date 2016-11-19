@@ -1,0 +1,4 @@
+- copy folder fish to ~/.config
+- replace .bashrc on ~/ 
+- copy vcprompt to /usr/bin  and set perm to 755
+- copy powerline folder to /usr/share/fonts

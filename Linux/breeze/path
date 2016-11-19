@@ -1,0 +1,16 @@
+/usr/
+/usr/lib/
+/usr/lib/kde4/
+/usr/lib/kde4/kstyle_breeze_config.so
+/usr/lib/kde4/plugins/
+/usr/lib/kde4/plugins/styles/
+/usr/lib/kde4/plugins/styles/breeze.so
+/usr/lib/qt4/
+/usr/lib/qt4/plugins/
+/usr/lib/qt4/plugins/styles/
+/usr/lib/qt4/plugins/styles/breeze.so
+/usr/share/
+/usr/share/apps/
+/usr/share/apps/kstyle/
+/usr/share/apps/kstyle/themes/
+/usr/share/apps/kstyle/themes/breeze.themerc
